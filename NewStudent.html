@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>
+            internet technology DM324</title>
+            <link rel="Stylesheet"; type="text/css"; href="Style.css">
+            <style>
+                .field_set{
+                 border-color:rgb(134, 9, 9);  
+                 border-style: solid; 
+                }
+                
+            </style>
+    </head>
+    <body>
+        <a href=index.html Target =_self>Home</a>
+        <a href=Studentlist.html>STUDENTLIST </a>
+        <a href=#>Student Name</a>
+        <a href="NewStudent.html" class="active">Student Form</a>
+        <div>
+            <a href=signin.html>sign in</a>
+        </div>
+        
+
+
+<hr/>
+<section>
+    <h1 class="title">New Student</h1>
+    
+ <!--Personal Info-->
+ <fieldset class="field_set">
+
+    <legend>Personal Information</legend>
+
+    <p>
+    <label>
+        Full Name: 
+        <input type="text" name="txtFullName" required> 
+
+    </label>
+
+</p>
+   <p> 
+    <label>
+        Birthdate: 
+        <input type="date" name="txtBirthDate">
+        
+    </label>
+</p>
+<p>
+    <label>
+        Gender: 
+        <input type="radio" name="gender" value="male">
+        Male
+        <input type="radio" name="gender" value="female">
+        Female
+    </label>
+</p>
+<p>
+    <label>
+        Email: 
+        <input type="email" name="txtEmail">
+
+    </label>
+</p>
+<p>
+    <label>
+        Address:
+        <textarea rows="5" cols="100" name="txtAddress"></textarea>
+    </label>
+</p>
+
+<p>
+    <label >
+    Choose Your Faculty:
+    <select name="faculty">
+        <option value="f1">CS
+        </option>
+        <option value="f2">IS     
+        </option>
+
+    </select>
+</label></p>
+
+
+<input type="submit" class="button" value="Sumbit" name="Add">
+
+
+
+</section>   
+<hr/>
+<footer>
+ <a href ="https://www.fue.edu.eg">&copy; Future University in Egypt</a>;
+ <a href="mailto:20192130@fue.edu.eg">contact us</a>
+</footer>
+</body>
+
+</html>
